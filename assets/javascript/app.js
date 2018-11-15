@@ -127,7 +127,6 @@ $(document).ready(function () {
             if (wrong + correct + unanswer === trivia.length) {
                 $("#question").empty();
                 $("#timer").empty();
-                $("#message").empty();
                 $("#question").html("<h3>GAME OVER!  Here's how you did: </h3>");
                 $("#answer").append("<h4> Correct: " + correct + "</h4>");
                 $("#answer").append("<h4> Incorrect: " + wrong + "</h4>");
