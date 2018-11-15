@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#timer {
+    float: right;
+}
+
+.guess {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 2rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+button.close { 
+    outline: none;
+}
+
+.modal-body {
+    margin: 2rem 0 2rem 2rem;
+}
+
+.modal-body h4 {
+    margin: 0;
+}
+
+#question-img {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 3.25rem;
+    color: #e71d73;
+}
+
+.card {
+    height: 3rem;
+}
+
+#message {
+    font-size: 1.25rem;
+}
