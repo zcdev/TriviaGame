@@ -70,7 +70,7 @@ $(document).ready(function () {
         index++;
         $("#question").html("<h3>" + item.question + "</h3>");
         for (let i = 0; i < item.options.length; i++) {
-            var answerOptions = $('<button data-target="#popMessage">');
+            let answerOptions = $('<button data-target="#popMessage">');
             answerOptions.addClass("guess");
             answerOptions.html(item.options[i]);
             answerOptions.val(i);
