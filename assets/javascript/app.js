@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // List all trivia questions
-    var trivia = [
+    const trivia = [
         {
             question: "How many legs does a spider have?",
             options: [6, 8, 4, 10],
@@ -77,7 +77,7 @@ $(document).ready(function () {
             $("#answer").append(answerOptions);
             $("#message").empty();
         }
-        
+
         // When player choose answer
         $(".guess").on("click", function () {
             guess = Number.parseInt($(this).val());
