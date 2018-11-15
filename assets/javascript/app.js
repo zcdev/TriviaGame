@@ -55,7 +55,6 @@ $(document).ready(function () {
     let item;
     let clock;
 
-
     // Start game
     $("#replay").hide()
     $("#start").on("click", function () {
@@ -78,6 +77,7 @@ $(document).ready(function () {
             $("#answer").append(answerOptions);
             $("#message").empty();
         }
+        
         // When player choose answer
         $(".guess").on("click", function () {
             guess = Number.parseInt($(this).val());
