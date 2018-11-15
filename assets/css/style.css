@@ -16,18 +16,6 @@ body {
     padding: 1.5rem;
 }
 
-button.close { 
-    outline: none;
-}
-
-.modal-body {
-    margin: 2rem 0 2rem 2rem;
-}
-
-.modal-body h4 {
-    margin: 0;
-}
-
 #question-img {
     position: absolute;
     bottom: 0;
