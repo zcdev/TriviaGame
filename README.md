@@ -12,4 +12,4 @@ In this assignment, we create a Trivia game using JavaScript for the logic and j
 ### Attributions
 
 * Game theme, development, and UI design: ZCDEV.
-* Image assets: vecteezy.com.
+* Image assets: vecteezy.com and giphy.com
