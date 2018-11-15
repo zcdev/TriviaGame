@@ -5,43 +5,43 @@ $(document).ready(function () {
             question: "How many legs does a spider have?",
             options: [6, 8, 4, 10],
             answer: 1,
-            image: "assets/images/spider.jpg"
+            image: "https://media.giphy.com/media/rAbKGNGM99DBC/giphy.gif"
         },
         {
             question: "How many rings make up the symbol of the Olympic Games?",
             options: [12, 10, 8, 6, 5],
             answer: 4,
-            image: "assets/images/olympic.jpg"
+            image: "https://media.giphy.com/media/26ufmepVftH5Y2V7q/giphy.gif"
         },
         {
             question: "How many grams are there in a kilogram?",
             options: [100, 10, 1000],
             answer: 2,
-            image: "assets/images/kilogram.jpg"
+            image: "https://media.giphy.com/media/l44Qj5UpKZaR5jrPy/giphy.gif"
         },
         {
             question: "How many lungs do humans normally have?",
             options: [1, 2, 0],
             answer: 1,
-            image: "assets/images/lungs.jpg"
+            image: "https://media.giphy.com/media/l4Ep98nbQvNj9sN0I/giphy.gif"
         },
         {
             question: "What’s the total number of dots on a pair of dice?",
             options: [32, 42, 26, 38],
             answer: 1,
-            image: "assets/images/dices.jpg"
+            image: "https://media.giphy.com/media/5T0klia2LqiIPM87lt/giphy.gif"
         },
         {
             question: "How many sides does an octagon have?",
             options: [6, 9, 5, 10, 8],
             answer: 4,
-            image: "assets/images/octagon.jpg"
+            image: "https://media.giphy.com/media/l0Nvr0QqmtpiizdhC/giphy.gif"
         },
         {
             question: "How many keys are there in the music?",
             options: [7, 10, 12, 24, 6],
             answer: 3,
-            image: "assets/images/musickeys.jpg"
+            image: "https://media.giphy.com/media/TM9YFrIGikk80/giphy.gif"
         }
     ]
 
@@ -75,7 +75,6 @@ $(document).ready(function () {
             answerOptions.html(item.options[i]);
             answerOptions.val(i);
             $("#answer").append(answerOptions);
-            $("#message").empty();
         }
 
         // When player choose answer
@@ -85,13 +84,14 @@ $(document).ready(function () {
                 stopTimer();
                 correct++;
                 guess = "";
-                $("#message").text("Correct!");
+                $("#answer").html("<p>Correct!</p>");
                 showScores();
             } else {
                 stopTimer();
                 wrong++;
                 guess = "";
-                $("#message").text("Wrong!");
+                $("#answer").html("<p>Wrong! The correct answer is: " + item.options[item.answer] + "</p>");
+                $("#answer").append("<img src="+ item.image + ">");
                 showScores();
             }
         });
@@ -100,12 +100,13 @@ $(document).ready(function () {
     // Timer settings
     function setTimer() {
         $("#timer").html("<p>Time remaining: " + timer + "</p>");
-
         timer--;
+
         if (timer < 0) {
             stopTimer();
             unanswer++;
-            $("#answer").html("<h4>Time is up! The correct answer is: " + item.options[item.answer] + "</h4>");
+            $("#answer").html("<p>Time is up! The correct answer is: " + item.options[item.answer] + "</p>");
+            $("#answer").append("<img src="+ item.image + ">");
             showScores();
         }
     }
@@ -139,7 +140,7 @@ $(document).ready(function () {
                 runTimer();
                 loadQuestion();
             }
-        }, 2000);
+        }, 3000);
     }
 
     // Replay game again

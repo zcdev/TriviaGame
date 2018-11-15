@@ -47,3 +47,8 @@ h1 {
 #message {
     font-size: 1.25rem;
 }
+
+#answer img {
+    border: 2px solid #000000;
+    max-width: 300px;
+}
