@@ -118,6 +118,7 @@ $(document).ready(function () {
         clearInterval(clock);
     }
 
+    // Display scores
     function showScores() {
         setTimeout(function () {
             $("#answer").empty();
@@ -125,11 +126,11 @@ $(document).ready(function () {
             if (wrong + correct + unanswer === trivia.length) {
                 $("#question").empty();
                 $("#timer").empty();
+                $("#message").empty();
                 $("#question").html("<h3>Game Over!  Here's how you did: </h3>");
                 $("#answer").append("<h4> Correct: " + correct + "</h4>");
                 $("#answer").append("<h4> Incorrect: " + wrong + "</h4>");
                 $("#answer").append("<h4> Unanswered: " + unanswer + "</h4>");
-                $("#message").empty();
                 $("#replay").show();
                 correct = 0;
                 wrong = 0;
@@ -141,6 +142,7 @@ $(document).ready(function () {
         }, 2000);
     }
 
+    // Replay game again
     $("#replay").on("click", function(){
         $("#replay").hide();
         runTimer();
