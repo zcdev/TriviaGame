@@ -56,7 +56,7 @@ $(document).ready(function () {
     let clock;
 
     // Start game
-    $("#replay").hide()
+    $("#replay").hide();
     $("#start").on("click", function () {
         $("#start").hide();
         runTimer();
