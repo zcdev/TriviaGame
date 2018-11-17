@@ -56,5 +56,6 @@ h1 {
     }
     .special-thanks {
         position: relative;
+        font-size: 0.5rem;
     }
 }
