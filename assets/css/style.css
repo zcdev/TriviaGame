@@ -2,7 +2,7 @@ body {
     font-family: 'Verdana', sans-serif;
     background: #231f20 url('../images/questionmarks.png') no-repeat center bottom;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     color: #ffffff;
 }
 
@@ -46,5 +46,5 @@ h1 {
     position: absolute;
     bottom: 0;
     font-size: 0.7rem;
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
 }
