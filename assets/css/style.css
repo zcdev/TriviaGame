@@ -43,6 +43,8 @@ h1 {
 }
 
 .special-thanks {
+    position: absolute;
+    bottom: 0;
     font-size: 0.7rem;
     padding-left: 1.5rem;
 }
