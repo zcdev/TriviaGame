@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(() => {
     // List all trivia questions
     const trivia = [
         {

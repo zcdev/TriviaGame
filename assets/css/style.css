@@ -50,6 +50,17 @@ h1 {
 
 }
 
+.guess {
+    background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    opacity: 0.8;
+    margin: 0.2rem;
+}
+
 @media only screen and (max-width: 460px) {
     body { 
         height: 85vh;
