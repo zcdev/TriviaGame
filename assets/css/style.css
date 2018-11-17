@@ -31,7 +31,7 @@ body {
 
 h1 {
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 3.25rem;
+    font-size: 5rem;
     color: #ffffff;
 }
 
@@ -45,7 +45,7 @@ h1 {
 .special-thanks {
     position: absolute;
     bottom: 0;
-    font-size: 0.7rem;
+    font-size: 1rem;
     padding-left: 1.5rem;
 
 }
