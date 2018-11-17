@@ -65,6 +65,9 @@ h1 {
     body { 
         height: 85vh;
     }
+    h1 {
+        font-size: 2.5rem;
+    }
     .special-thanks {
         position: relative;
         font-size: 0.5rem;
