@@ -18,7 +18,7 @@ body {
 .wrapper {
     margin: 0 auto;
     padding: 1.5rem;
-    min-height: 100%;
+    min-height: 90%;
     position: relative;
     overflow: hidden;
 }
@@ -41,6 +41,6 @@ h1 {
 }
 
 .special-thanks {
-    position: absolute;
-    bottom: 0;
+    padding-left: 1.5rem;
+    font-size: 0.5rem;
 }
