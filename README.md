@@ -12,5 +12,5 @@ In this assignment, we were asked to create a Trivia game using JavaScript for t
 
 ### Attributions
 
-* Game theme, development, and UI design: ZCDEV.
-* Image assets: vecteezy.com and giphy.com
+* Game theme design, development: ZCDEV.
+* Image assets: Andrew Wright for the background image and giphy.com for the animated GIFs.

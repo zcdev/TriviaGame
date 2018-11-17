@@ -1,5 +1,9 @@
 body {
     font-family: 'Verdana', sans-serif;
+    background: url('../images/questionmarks.png') no-repeat center bottom fixed;
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
 }
 
 #timer {
@@ -25,10 +29,15 @@ body {
 h1 {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 3.25rem;
-    color: #e71d73;
+    color: #ffffff;
 }
 
 #answer img {
     border: 2px solid #000000;
     max-width: 300px;
+}
+
+.special-thanks {
+    position: absolute;
+    bottom: 0;
 }
