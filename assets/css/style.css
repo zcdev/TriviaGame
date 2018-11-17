@@ -1,6 +1,6 @@
 body {
     font-family: 'Verdana', sans-serif;
-    background: #000000 url('../images/questionmarks.png') no-repeat center bottom;
+    background: #231f20 url('../images/questionmarks.png') no-repeat center bottom;
     background-size: cover;
     height: 100vh;
     color: #ffffff;
@@ -45,5 +45,6 @@ h1 {
 .special-thanks {
     position: absolute;
     bottom: 0;
+    margin-top: -2rem;
     font-size: 0.7rem;
 }
