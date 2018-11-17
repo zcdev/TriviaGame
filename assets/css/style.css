@@ -54,6 +54,7 @@ h1 {
         height: 100%;
     }
     .special-thanks {
-        position: relative;
+        position: absolute;
+        bottom: 0;
     }
 }
