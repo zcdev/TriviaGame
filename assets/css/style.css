@@ -1,8 +1,8 @@
 body {
     font-family: 'Verdana', sans-serif;
-    background: #000000 url('../images/questionmarks.png') no-repeat center bottom fixed;
+    background: #000000 url('../images/questionmarks.png') no-repeat center bottom;
     background-size: cover;
-    height: 99vh;
+    height: 100vh;
     color: #ffffff;
 }
 
@@ -38,9 +38,13 @@ h1 {
 #answer img {
     border: 2px solid #000000;
     max-width: 300px;
+    float: left;
+    position: relative;
 }
 
 .special-thanks {
+    position: relative;
+    bottom: 1rem;
     padding-left: 1.5rem;
     font-size: 0.8rem;
 }
