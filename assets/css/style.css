@@ -2,7 +2,7 @@ body {
     font-family: 'Verdana', sans-serif;
     background: #231f20 url('../images/questionmarks.png') no-repeat center bottom;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     color: #ffffff;
 }
 
@@ -18,7 +18,7 @@ body {
 .wrapper {
     margin: 0 auto;
     padding: 1.5rem;
-    min-height: 90%;
+    min-height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -47,4 +47,13 @@ h1 {
     bottom: 0;
     font-size: 0.7rem;
     padding-left: 0.5rem;
+}
+
+@media only screen and (max-width: 460px) {
+    body { 
+        height: 100%;
+    }
+    .special-thanks {
+        position: relative;
+    }
 }
