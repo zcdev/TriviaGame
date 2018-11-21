@@ -57,7 +57,7 @@ let clock;
 // Start game
 $('#replay').hide();
 $('#start').on('click', () => {
-  $('#start').hide();
+  $(this).hide();
   runTimer();
   loadQuestion();
 });
@@ -136,7 +136,7 @@ function showScores() {
 
 // Replay game again
 $('#replay').on('click', () => {
-  $('#replay').hide();
+  $(this).hide();
   runTimer();
   $('question').empty();
   index = 0;
