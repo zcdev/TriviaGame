@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this assignment, we were asked to create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML utilizing setTimeout function.
+In this project, I created a Trivia game using JavaScript for the logic and jQuery to manipulate HTML utilizing setTimeout function.
 
 ### Technologies
 
@@ -16,3 +16,5 @@ In this assignment, we were asked to create a Trivia game using JavaScript for t
 
 * Game development: ZCDEV.
 * Image assets: Andrew Wright for the background image and giphy.com for the animated GIFs.
+
+![Trivia Game](https://zcdev.github.io/img/p6.png)
