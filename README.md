@@ -15,6 +15,6 @@ In this project, I created a Trivia game using JavaScript for the logic and jQue
 ### Attributions
 
 * Game development: ZCDEV.
-* Image assets: Andrew Wright for the background image and giphy.com for the animated GIFs.
+* Image assets: Andrew Wright (https://www.iamdrewright.com) for the background image and giphy.com for the animated GIFs.
 
 ![Trivia Game](https://zcdev.github.io/img/p6.png)
