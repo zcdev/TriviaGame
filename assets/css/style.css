@@ -47,7 +47,11 @@ h1 {
     bottom: 0;
     font-size: 1rem;
     padding-left: 1.5rem;
+}
 
+.special-thanks a {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .guess {
